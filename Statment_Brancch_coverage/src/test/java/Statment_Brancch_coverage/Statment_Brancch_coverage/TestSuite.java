@@ -6,7 +6,9 @@ import org.junit.runners.Suite;
 @RunWith(Suite.class)
 
 @Suite.SuiteClasses({
-	testCheckOutMethod.class
+	testWeakMethod1_a.class,
+	testWeakMethod1_b.class
+
 	
 })
 public class TestSuite {
